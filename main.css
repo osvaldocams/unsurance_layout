@@ -120,3 +120,46 @@ nav{
     } 
 }
 
+/* SECTION1 */
+
+/* movil */
+.wallpaper{
+    width: 100%;
+    height: 700px;
+}
+.wallpaper_container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.wallpaperflare.com/static/681/458/510/family-holiday-together-leisure-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.wallpaper_container p{
+    margin: 0;
+    font-size: 3rem;
+    color: var(--blanco);
+}
+.wallpaper_container img{
+    margin-top: 40px;
+    width: 80px;
+}
+
+/* desktop */
+@media(min-width:780px){
+    .wallpaper_container p{
+        max-width: 1150px;
+        margin: 0 auto;
+        font-size: 5rem;
+    }
+    .wallpaper_container img{
+        margin-top: 40px;
+        width: 180px;
+    }
+
+}
