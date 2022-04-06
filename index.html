@@ -8,6 +8,36 @@
     <title>insurance</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">
+                <img class="logo" src="./assets/NUEVO LOFO RUNNERS SIN CLUB-03.png" alt="">
+            </a>
+            <ul class="enlaces-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <button class="ham" type="button">
+                <span class="br1"></span>
+                <span class="br2"></span>
+                <span class="br3"></span>
+            </button>
+        </nav>
+    </header>
+
+    <script>
+        const enlaces = document.querySelector('.enlaces-menu');
+        const ham = document.querySelector('.ham');
+        const barras = document.querySelectorAll('.ham span')
+
+        ham.addEventListener('click', ()=>{
+            enlaces.classList.toggle('activado');
+            barras.forEach(child =>{child.classList.toggle('animado')})
+        });
+
+
+    </script>
 </body>
 </html>
