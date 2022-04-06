@@ -163,3 +163,41 @@ nav{
     }
 
 }
+
+/* SECTION2 */
+
+/* movil */
+.description{
+    padding: 20px;
+}
+.description_container{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.description_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description_box-img img{
+    width: 100%;
+}
+.description_box-text{
+   display: flex;
+   flex-direction: column;
+   text-align: left; 
+}
+.description_box-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--negro);
+}
+.description_box-text p{
+    font-size: 1.3rem;
+    line-height: 2;
+    color: #606366;
+}
+.desc-button{
+    
+}
