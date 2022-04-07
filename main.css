@@ -328,3 +328,53 @@ nav{
         gap: 40px;
     }
 }
+
+
+/* section5 */
+
+/* movil */
+.info{
+    width: 100%;
+    height: 400px;
+}
+.info_container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wp.es.aleteia.org/wp-content/uploads/sites/7/2019/08/web3-father-son-hug-shutterstock_1355903147-por-lightfield-studios.jpg?w=620&h=348&crop=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.info-button{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--blanco);
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.info-button a{
+    color: var(--negro);
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+.info-button:hover{
+    background-color: var(--main-background);
+}
+.info_container p{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--blanco);
+}
+
+/* desktop */
