@@ -376,5 +376,14 @@ nav{
     font-weight: 500;
     color: var(--blanco);
 }
+.info-foot{
+    height: 40px;
+    background-color: var(--main-background);
+}
 
 /* desktop */
+@media(min-width:780px){
+    .info_container p{
+        font-size: 4rem;
+    }
+}
