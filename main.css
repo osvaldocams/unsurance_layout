@@ -387,3 +387,108 @@ nav{
         font-size: 4rem;
     }
 }
+
+
+/* footer */
+
+/* movil */
+footer{
+    padding: 40px 20px;
+}
+.foot_container{
+    max-width: 780px;
+    margin: 0 auto;
+}
+.adress{
+    width: 100%;
+    text-align: center;
+}
+.adress p{
+    font-size: 1rem;
+    line-height: 3.5;
+}
+.contact_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.personal{
+    text-align: center;
+}
+.personal h3{
+    font-size: 1.4rem;
+}
+.personal p{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.personal a img{
+    width: 30px;
+}
+.contact{
+    margin-top: 60px;
+    text-align: center;
+}
+.contact h3{
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+.contact p{
+    font-size: 1.4rem;
+    margin: 60px 0;
+}
+.contact img{
+    width: 120px;
+}
+
+/* desktop */
+@media(min-width:780px){
+    footer{
+        padding: 80px 20px;
+    }
+    .foot_container{
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .contact_info{
+        flex-direction: row;
+    }
+    .personal{
+        text-align: left;
+    }   
+    .grilla{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr ;
+        gap: 30px;
+    }
+
+    .contact img{
+        width: 30px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
+    }
+    .point{
+        display: flex;
+        align-items: center;
+    }
+    .contact p{
+        margin: 0;
+    }
+    .contact{
+        margin-top: 0;
+    }
+    .contact h3{
+        font-size: 1.6rem;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .contact p{
+        margin-left: 20px;
+    }    
+}   
