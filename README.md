@@ -14,3 +14,5 @@ plantilla de practica con temática de aseguradora y venta de productos financie
 
 -los botones estan hechos con <a> dentro de <div>
 
+-tiene slider manual hecho con css con aspectos por mejorar.
+
